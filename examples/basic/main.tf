@@ -26,7 +26,7 @@ module "hello_web" {
   # Also globally unique — separate from the state bucket above, and
   # separate in PURPOSE: this one holds deployed website content, not
   # Terraform's own bookkeeping.
-  app_bucket_name = "hello-web-state-xiaoling514"
+  app_bucket_name = "hello-web-app-xiaoling514"
 }
 
 output "site_url" {
